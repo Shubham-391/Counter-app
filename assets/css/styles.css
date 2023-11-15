@@ -118,7 +118,7 @@ button {
     height: 45px;
 }
 
-button:hover {
+button:hover:not(.button-box .save.not-allowed) {
     background: linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%);
     color: white;
 }
@@ -137,8 +137,9 @@ button:hover {
     right: 12px;
 }
 
-.not-allowed{
+.not-allowed {
     cursor: not-allowed;
+    opacity: 0.5;
 }
 
 @media (min-width: 500px) {
