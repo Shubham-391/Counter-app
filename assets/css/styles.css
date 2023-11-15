@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.min-height-100vh {
+    min-height: 100vh;
+}
+
+.bg-grey {
+    background: #F7F7F7;
+}
+
+h1 {
+    color: #808080;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.box {
+    width: 95%;
+    height: 304px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.button-box {
+    width: 284px;
+    margin: 36px 0;
+}
+
+.color-black {
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ff-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.fs-sm {
+    font-size: 16px;
+}
+
+.fs-lg {
+    font-size: 36px;
+}
+
+.font-style-normal {
+    font-style: normal;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.line-height-normal {
+    line-height: normal;
+}
+
+.color-blue {
+    color: #128DFF;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid #128DFF;
+    color: #128DFF;
+    background: none;
+}
+
+.button-box button {
+    width: 138px;
+    height: 45px;
+}
+
+button:hover {
+    background: linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%);
+    color: white;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.reset {
+    padding: 8px;
+    top: 12px;
+    right: 12px;
+}
+
+.not-allowed{
+    cursor: not-allowed;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .box {
+        width: 460px;
+    }
+}
